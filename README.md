@@ -1,6 +1,6 @@
-# Kube ObjectStore
+# Cloud Native ObjectStore
 
-A reusable, provider agnostic object store client library for Rust Kubernetes operators.
+A reusable, provider agnostic object store client library for Cloud Native applications and Kubernetes operators.
 
 Wraps [`object_store`](https://docs.rs/object_store) with a simpler, higher-level API covering
 CRUD, prefix listing, latest-file retrieval, and background change detection — all driven by
@@ -29,7 +29,7 @@ Add to your `Cargo.toml`:
 [dependencies]
 kube-objstore = { path = "../kube-objstore" }   # local
 # or once published:
-# kube-objstore = "0.1"
+# kube-objstore = "0.1.0"
 ```
 
 ---
