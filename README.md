@@ -226,7 +226,7 @@ export OBJECT_STORAGE_SECRET=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 export AWS_DEFAULT_REGION=eu-west-1
 ```
 
-### MinIO / Cloudian (S3-compatible)
+### S3-compatible
 
 ```bash
 export CLOUD_PROVIDER=s3
